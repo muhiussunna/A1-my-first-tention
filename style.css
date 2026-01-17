@@ -30,7 +30,6 @@ nav .menu{
 nav .menu a{
    text-decoration:none ;
   gap: 20px;
-  
 
 }
 nav.btn{
@@ -42,7 +41,7 @@ nav.btn{
 background-image: url("./assets/hero-bg.png");
 
 max-width: 2042px;
-height:1363px;
+
 background-repeat:no-repeat;
 margin: 0;
   padding: 0;
@@ -60,15 +59,37 @@ margin: 0;
   text-align: center;
 padding: 162px;
 }
-.next-section{
-  display: flex;
- flex-direction: column;
- /* justify-content: center; */
-  /* border: 1px solid red; */
-  margin: 0;
-  align-items: center;
+#skills {
+  padding-top:50px;
+}
+#skills .skills-container{
+  max-width: 1360px;
+  height: 300px;
+  margin: 0 auto;
   text-align: center;
-/* padding: 162px; */
-border: 0;
-padding: 0;
+}
+.section-heading {
+  margin: 0 auto;
+  text-align: center;
+}
+.skill-box{
+  display: flex;
+  margin: 0 auto;
+  max-width: 1360px;
+  box-shadow: 6px black;
+}
+.skill-card{
+  padding: 30px;
+  border: 1px solid red;
+  max-width: 200px;
+  margin: 0 auto;
+    box-shadow: 6px rgba(0, 0, 0, 0.868);
+
+}
+#banner-next{
+  display: flex;
+}
+.latter{
+  height: 313px;
+  max-width: 700px;
 }
