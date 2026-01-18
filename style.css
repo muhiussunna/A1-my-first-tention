@@ -73,18 +73,16 @@ padding: 162px;
   text-align: center;
 }
 .skill-box{
+  gap: 20px;
   display: flex;
   margin: 0 auto;
-  max-width: 1360px;
-  box-shadow: 6px black;
+  max-width: 1200px;
+  box-shadow: 6px rgba(0, 0, 0, 0.237);
 }
 .skill-card{
   padding: 30px;
-  border: 1px solid red;
-  max-width: 200px;
   margin: 0 auto;
-    box-shadow: 6px rgba(0, 0, 0, 0.868);
-
+background-color: #d8d8d8;
 }
 #banner-next{
   display: flex;
@@ -92,4 +90,26 @@ padding: 162px;
 .latter{
   height: 313px;
   max-width: 700px;
+  margin: 93px 0px 93px 60px;
+  border: 1px solid red; 
+}
+#about{
+  padding-top: 120px;
+}
+.about-container{
+  width: 75%;
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #F7F6F2;
+  padding: 80px 40px;
+}
+#end-banner{
+  background-color:#627382;
+  padding: 120px 120px 30px 120px;
+  
+}
+
+.last-part{
+margin: 0 auto;
 }
